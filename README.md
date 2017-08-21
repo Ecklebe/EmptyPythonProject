@@ -1,10 +1,15 @@
 EmptyPythonProject
 
+This project containes the most things to start programming in python with an new project. To do this clone this repo to your local computer and start editing.
+
 ## Versions
-An compiled version is placed in the subfolder ["\deploy\dist"][RELEASES]
+Should your project contain executables? No problem use the functions in the subfolder deploy. 
+An compiled version where then placed in the subfolder ["\deploy\dist"][RELEASES]
 
 ## Documentation
-The html based documentation in german can be found in the subfolder ["\documentation\output"][DOCU].
+To the docu that should be never forgotten. This project handels the docu of the code and other documentation for other users with doxygen. In the subfolder documentation are functions and and pre configured config file. All you need is an installed doxygen and an path set in your enviormental variables.
+
+The html based documentation then can be found in the subfolder ["\documentation\output"][DOCU].
 
 ## Changes
 For the changes of each version see the [CHANGELOG.md][CHANGELOG] in this folder.
