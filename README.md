@@ -9,7 +9,7 @@ No problem use the functions in the subfolder deploy.
 An compiled version where then placed in the subfolder ["\deploy\dist"][RELEASES]
 
 ## Documentation
-To the docu that you should not forget. This project handels the docu of the code and other documentation for other users with doxygen. In the subfolder documentation are functions and and pre configured config file. All you need is an installed doxygen and an path set in your enviormental variables.
+To the docu that you should not forget. This project handels the docu of the code and other documentation for other users with doxygen. In the subfolder documentation are functions and a pre configured config file. All you need is an installed doxygen and an path set in your enviormental variables.
 
 The html based documentation then can be found in the subfolder ["\documentation\output"][DOCU].
 
