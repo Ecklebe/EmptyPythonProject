@@ -1,7 +1,7 @@
 ##  Mainpage for the doxygen documentation
 #
 # @file		    documentation.py
-# @author	    Tobias Ecklebe tobias.ecklebe@outlook.de
+# @author	    author name
 # @date		    08.07.2017
 # @version	    0.0.1
 # @note		    This file includes all information to use the program
@@ -16,7 +16,7 @@
 #
 # \mainpage
 # \tableofcontents
-# \author Tobias Ecklebe 
+# \author author name
 # \date 	07/2017
 # \section Section_1 Section_1
 # Text ...
@@ -25,7 +25,7 @@
 # \subsubsection Subsubsection Subsubsection
 # Text ...
 # \section Section_2 Section_2
-# - **Katalog**:           Eine Sammlung von verschiedenen Elementen, zum Beispiel Fahrzeuge im Fahrzeugkatalog
+# - **Katalog**:           Eine Sammlung von verschiedenen Elementen
 # \section TODO TODOs
 # Text ...
 
