@@ -1,4 +1,4 @@
-#EmptyPythonProject
+# EmptyPythonProject
 
 This project containes the most things to start programming in python with an new project. To do this clone this repo to your local computer and start editing.
 
