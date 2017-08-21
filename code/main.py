@@ -1,7 +1,7 @@
 ## Main file for EmptyPythonProject
 #
 # @file		    main.py
-# @author	    Tobias Ecklebe tobias.ecklebe@outlook.de
+# @author	    author name
 # @date		    08.07.2017
 # @version	    0.0.1
 # @note		    This file includes the main function code for the application.
