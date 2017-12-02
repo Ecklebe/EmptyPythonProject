@@ -1,5 +1,7 @@
 # EmptyPythonProject
 
+[![build status](https://gitlab.ecklebe.de/open-source/python/EmptyPythonProject/badges/master/build.svg)](https://gitlab.ecklebe.de/open-source/python/EmptyPythonProject/commits/master)
+
 This project containes the most things to start programming in python with an new project. To do this clone this repo to your local computer and start editing.
 
 ## Versions
