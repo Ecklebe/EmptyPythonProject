@@ -1,0 +1,11 @@
+stages:
+  - mirror
+  
+github_mirror:
+  stage: mirror
+  only:
+    - master
+  script:
+    - git checkout master
+    - git pull origin master
+    - git push git@github.com:Ecklebe/EmptyPythonProject.git master --force
