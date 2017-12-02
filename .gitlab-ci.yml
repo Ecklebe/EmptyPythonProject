@@ -3,6 +3,9 @@ image: python:3.6
 stages:
   - mirror
   
+variables:
+  GITHUB_OAUTH_TOKEN: "$GITHUB_OAUTH_TOKEN"
+  
 github_mirror:
   stage: mirror
   only:
