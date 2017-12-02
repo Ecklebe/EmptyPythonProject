@@ -13,4 +13,4 @@ github_mirror:
   script:
     - git checkout master
     - git pull origin master
-    - git push https://GITHUB_OAUTH_TOKEN@github.com/Ecklebe/EmptyPythonProject.git master --force
+    - git push https://Ecklebe:GITHUB_OAUTH_TOKEN@github.com/Ecklebe/EmptyPythonProject.git master --force
