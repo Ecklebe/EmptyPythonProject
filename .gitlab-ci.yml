@@ -1,7 +1,26 @@
 image: python:3.6
 
 stages:
+  - install   
+  - deploy
   - mirror
+    
+run_install_of_package:
+  stage: install
+  tags:
+    - linux
+    - python
+  script:
+    - python setup.py install
+
+run_pyinstaller:
+  stage: deploy
+  tags:
+    - linux
+    - python
+  script:
+    - python builder.py
+  allow_failure: true
   
 github_mirror:
   stage: mirror
