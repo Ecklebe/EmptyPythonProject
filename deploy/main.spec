@@ -1,12 +1,16 @@
 # -*- mode: python -*-
 import os
 import sys
-import PyQt5
-import markdown2
 
-PathToPyQT5 =  os.path.dirname(PyQt5.__file__)
-PathToPyQT5_bin = os.path.join(PathToPyQT5, 'Qt\\bin')
+import markdown2
 Path2Markdown2 = os.path.dirname(markdown2.__file__)
+
+#import PyQt5
+PathToPyQT5     = '' #os.path.dirname(PyQt5.__file__)
+PathToPyQT5_bin = '' #os.path.join(PathToPyQT5, 'Qt\\bin')
+
+
+
 
 block_cipher = None
 
