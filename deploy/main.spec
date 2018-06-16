@@ -15,8 +15,8 @@ PathToPyQT5_bin = '' #os.path.join(PathToPyQT5, 'Qt\\bin')
 block_cipher = None
 
 added_files = [
-         ( '..\\documentation\output', 'documentation\output' ),
-		 ( '..\\CHANGELOG.md', '.' )
+         ( '..//documentation/output', 'documentation/output' ),
+		 ( '..//CHANGELOG.md', '.' )
          ]
 def Entrypoint(dist, group, name,
                scripts=None, 
