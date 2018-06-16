@@ -101,7 +101,7 @@ class Variables:
     The list trove classifiers applicable to this project
     """
 
-    install_requires = ["pyinstaller", "pylibcklb<=1.4"]
+    install_requires = ["pyinstaller", "pylibcklb"]
     """
     Python dependencies
     """
