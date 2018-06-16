@@ -11,8 +11,7 @@ def Rename(RootDir, ProjectName, Name2Replace):
                 print(subdir + '\\' + filename)
                 for line in fileinput.input(subdir + '/' +filename, inplace=1):         
                     if Name2Replace in line:
-                        line= line.replace(Name2Replace,projectname)
-                        print('hello')
+                        line= line.replace(Name2Replace,ProjectName)
                     sys.stdout.write(line)   
 
 def main():
