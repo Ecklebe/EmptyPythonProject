@@ -19,8 +19,8 @@ run_pyinstaller:
     - linux
     - python
   script:
+    - python setup.py install
     - python builder.py
-  allow_failure: true
   
 github_mirror:
   stage: mirror
