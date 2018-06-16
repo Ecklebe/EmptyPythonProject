@@ -60,7 +60,7 @@ def Entrypoint(dist, group, name,
     return Analysis([script_path] + scripts, pathex, binaries=binaries, datas=datas, hiddenimports=hiddenimports, hookspath=hookspath, runtime_hooks=runtime_hooks, excludes=excludes, win_no_prefer_redirects=False, win_private_assemblies=False, cipher=None)
 
 a = Entrypoint('EmptyPythonProject', 'gui_scripts', 'EmptyPythonProject',
-			scripts=['..\\EmptyPythonProject\\main.py'], 
+			scripts=['..//EmptyPythonProject//main.py'], 
             pathex=[PathToPyQT5_bin, Path2Markdown2],
             binaries=[],
             datas = added_files,
@@ -82,6 +82,6 @@ exe = EXE(pyz,
           debug=False,
           strip=False,
           upx=True,
-          console=False)
+          console=True)
 
 		  
